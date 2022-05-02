@@ -1,0 +1,27 @@
+{
+  "name": "webpack_study",
+  "version": "1.0.0",
+  "description": "<!--  * @Description:   * @Author: liyongshuai  * @Date: 2022-05-02 22:31:00  * @LastEditTime: 2022-05-02 22:33:40  * @LastEditors: liyongshuai --> # 介绍 ###  webpack_01 - webpack 打包基础逻辑 - webpack 五大核心概念 - `development`、`production`两种基本模式",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKT-Shurima/webpack-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SKT-Shurima/webpack-study/issues"
+  },
+  "homepage": "https://github.com/SKT-Shurima/webpack-study#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
