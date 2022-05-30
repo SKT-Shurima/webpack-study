@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: liyongshuai
  * @Date: 2022-05-02 22:31:00
- * @LastEditTime: 2022-05-20 15:45:44
+ * @LastEditTime: 2022-05-29 15:45:00
  * @LastEditors: liyongshuai
 -->
 # 介绍
@@ -27,3 +27,6 @@
 ## webpack_04
 
 - 打包图片资源
+  采用`url-loader`打包解析，需要依赖`file-loader`；
+  处理图片限制大小的时候，可以在`option`里面添加`limit`，`limit`只是针对图片比值小的图片进行base64转换；
+  如果HTML标签中使用了`img`标签引用图片，那么需要借助`html-loader`，将`img`标签引入，并且可以让`url-loader`识别；需要注意的是`html-loader`是靠`commonjs`解析，`url-loader`是`esModule`解析，所以需要在`url-loader`中将`esModule`关闭；

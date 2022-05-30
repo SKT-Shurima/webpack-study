@@ -93,7 +93,29 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/api.js */ \"../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"html,\\nbody {\\n  width: 100%;\\n  height: 100%;\\n  margin: 0;\\n  padding: 0;\\n  background-color: aquamarine;\\n}\\n.wrapper {\\n  height: 50%;\\n  background-color: burlywood;\\n}\\n.wrapper .box {\\n  font-size: 40px;\\n  color: brown;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/index.less?../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/api.js */ \"../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js!../assets/common.css */ \"../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js!./assets/common.css\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nexports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);\n// Module\nexports.push([module.i, \".fontTest {\\n  font-family: 'Trispace', sans-serif;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/index.less?../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js!./assets/common.css":
+/*!************************************************************************************!*\
+  !*** ../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js!./assets/common.css ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/api.js */ \"../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"html,body{\\n  padding: 0;\\n  margin: 0;\\n}\\n.red {\\n  color: red\\n}\\n\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./assets/common.css?../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js!./assets/iconfont.css":
+/*!**************************************************************************************!*\
+  !*** ../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js!./assets/iconfont.css ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/api.js */ \"../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/getUrl.js */ \"../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./iconfont.ttf */ \"./assets/iconfont.ttf\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: \\\"iconfont\\\"; /* Project id  */\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format('truetype');\\n}\\n\\n.iconfont {\\n  font-family: \\\"iconfont\\\" !important;\\n  font-size: 16px;\\n  font-style: normal;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n}\\n\\n.icon-auto:before {\\n  content: \\\"\\\\e6eb\\\";\\n}\\n\\n.icon-code:before {\\n  content: \\\"\\\\e6f2\\\";\\n}\\n\\n.icon-copy:before {\\n  content: \\\"\\\\e6f3\\\";\\n}\\n\\n.icon-dollar:before {\\n  content: \\\"\\\\e6f4\\\";\\n}\\n\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./assets/iconfont.css?../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -109,6 +131,18 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
+/***/ "../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/getUrl.js":
+/*!***************************************************************************!*\
+  !*** ../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/getUrl.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = url && url.__esModule ? url.default : url;\n\n  if (typeof url !== 'string') {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    // eslint-disable-next-line no-param-reassign\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, '\\\\n'), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack:///../node_modules/_css-loader@3.4.1@css-loader/dist/runtime/getUrl.js?");
+
+/***/ }),
+
 /***/ "../node_modules/_style-loader@1.1.3@style-loader/dist/runtime/injectStylesIntoStyleTag.js":
 /*!*************************************************************************************************!*\
   !*** ../node_modules/_style-loader@1.1.3@style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
@@ -121,6 +155,29 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./assets/iconfont.css":
+/*!*****************************!*\
+  !*** ./assets/iconfont.css ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../node_modules/_style-loader@1.1.3@style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"../node_modules/_style-loader@1.1.3@style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js!./iconfont.css */ \"../node_modules/_css-loader@3.4.1@css-loader/dist/cjs.js!./assets/iconfont.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./assets/iconfont.css?");
+
+/***/ }),
+
+/***/ "./assets/iconfont.ttf":
+/*!*****************************!*\
+  !*** ./assets/iconfont.ttf ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"27793c50c63f551e923c6ba894f3f28f.ttf\");\n\n//# sourceURL=webpack:///./assets/iconfont.ttf?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -129,7 +186,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.less */ \"./src/index.less\");\n/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_less__WEBPACK_IMPORTED_MODULE_0__);\n/*\n * @Description:\n * @Author: liyongshuai\n * @Date: 2022-05-02 22:29:38\n * @LastEditTime: 2022-05-02 23:16:07\n * @LastEditors: liyongshuai\n */\n\n\n\nconsole.log(\"load less\");\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_iconfont_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/iconfont.css */ \"./assets/iconfont.css\");\n/* harmony import */ var _assets_iconfont_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_iconfont_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.less */ \"./src/index.less\");\n/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_less__WEBPACK_IMPORTED_MODULE_1__);\n/*\n * @Description:\n * @Author: liyongshuai\n * @Date: 2022-05-29 15:54:54\n * @LastEditTime: 2022-05-30 20:49:29\n * @LastEditors: liyongshuai\n */\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
