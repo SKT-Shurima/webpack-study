@@ -1,8 +1,8 @@
 /*
  * @Description:
  * @Author: liyongshuai
- * @Date: 2022-05-29 16:00:32
- * @LastEditTime: 2022-05-30 21:45:22
+ * @Date: 2022-05-30 22:46:06
+ * @LastEditTime: 2022-05-31 14:27:10
  * @LastEditors: liyongshuai
  */
 const path = require("path");
@@ -24,10 +24,9 @@ module.exports = {
         test: /\.less$/,
         use: ["style-loader", "css-loader", "less-loader"],
       },
-      // 打包其他资源 (除了html/js/css资源以外的资源)
       {
-        exclude: /\.(css|js|html|less)$/,
-        loader: "file-loader",
+        test: /\.(svg|jpeg|jpg|png)$/,
+        use: "url-loader",
       },
     ],
   },
@@ -37,4 +36,13 @@ module.exports = {
     }),
   ],
   mode: "development",
+  // 开发服务器 devServer 用来自动化 自动编译  自动打开浏览器 刷新浏览器的
+  //  特点：只会在内存中进行编译打包，不会有任何输出
+  // 启动devServer 指令为：npx webpack-dev-server
+  devServer: {
+    contentBase: path.resolve(__dirname, "build"),
+    // 启动gzip 压缩
+    compress: true,
+    port: 3000,
+  },
 };

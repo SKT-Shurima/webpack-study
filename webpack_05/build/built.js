@@ -178,6 +178,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/data.json":
+/*!***********************!*\
+  !*** ./src/data.json ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module) {
+
+eval("!(function webpackMissingModule() { var e = new Error(\"Cannot find module './data.json'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n//# sourceURL=webpack:///./src/data.json?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -186,7 +197,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_iconfont_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/iconfont.css */ \"./assets/iconfont.css\");\n/* harmony import */ var _assets_iconfont_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_iconfont_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.less */ \"./src/index.less\");\n/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_less__WEBPACK_IMPORTED_MODULE_1__);\n/*\n * @Description:\n * @Author: liyongshuai\n * @Date: 2022-05-29 15:54:54\n * @LastEditTime: 2022-05-30 20:49:29\n * @LastEditors: liyongshuai\n */\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_iconfont_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/iconfont.css */ \"./assets/iconfont.css\");\n/* harmony import */ var _assets_iconfont_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_iconfont_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.less */ \"./src/index.less\");\n/* harmony import */ var _index_less__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_less__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data.json */ \"./src/data.json\");\n/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_data_json__WEBPACK_IMPORTED_MODULE_2__);\n/*\n * @Description:\n * @Author: liyongshuai\n * @Date: 2022-05-29 15:54:54\n * @LastEditTime: 2022-05-30 21:44:39\n * @LastEditors: liyongshuai\n */\n\n\n\n\nconsole.log(_data_json__WEBPACK_IMPORTED_MODULE_2___default.a);\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
