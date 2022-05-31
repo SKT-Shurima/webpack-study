@@ -2,7 +2,10 @@
  * @Description:
  * @Author: liyongshuai
  * @Date: 2022-05-30 22:45:49
- * @LastEditTime: 2022-05-31 00:05:30
+ * @LastEditTime: 2022-05-31 14:44:44
  * @LastEditors: liyongshuai
  */
-console.log(2121);
+import { getCookie } from "./utils";
+
+const cookie = getCookie();
+console.log(cookie);

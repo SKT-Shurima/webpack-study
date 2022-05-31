@@ -90,10 +90,23 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("/*\n * @Description:\n * @Author: liyongshuai\n * @Date: 2022-05-30 22:45:49\n * @LastEditTime: 2022-05-31 00:05:30\n * @LastEditors: liyongshuai\n */\nconsole.log(2121);\n\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils */ \"./src/utils.js\");\n/*\n * @Description:\n * @Author: liyongshuai\n * @Date: 2022-05-30 22:45:49\n * @LastEditTime: 2022-05-31 14:44:44\n * @LastEditors: liyongshuai\n */\n\n\nconst cookie = Object(_utils__WEBPACK_IMPORTED_MODULE_0__[\"getCookie\"])();\nconsole.log(cookie);\n\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/utils.js":
+/*!**********************!*\
+  !*** ./src/utils.js ***!
+  \**********************/
+/*! exports provided: getCookie */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getCookie\", function() { return getCookie; });\n/*\n * @Description: \n * @Author: liyongshuai\n * @Date: 2022-05-31 14:43:34\n * @LastEditTime: 2022-05-31 14:44:06\n * @LastEditors: liyongshuai\n */\nconst getCookie = () => {\n  return document.cookie;\n};\n\n\n//# sourceURL=webpack:///./src/utils.js?");
 
 /***/ })
 

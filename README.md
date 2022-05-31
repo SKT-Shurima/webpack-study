@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: liyongshuai
  * @Date: 2022-05-02 22:31:00
- * @LastEditTime: 2022-05-31 14:32:18
+ * @LastEditTime: 2022-05-31 22:09:56
  * @LastEditors: liyongshuai
 -->
 # 介绍
@@ -36,6 +36,18 @@
 - 打包其他资源
   采用`file-loader`打包解析，主要是将不需要处理的文件进行原封不动的输出；
 
-## webpack_07
+## webpack_06
 
 - `devServer` 开启文件的热更新
+
+## webpack_07
+
+- `mini-css-extract-plugin`将css合并成一个文件
+
+## webpack_08
+
+- `postcss-loader`做样式兼容性处理，搭配`package.json`中的`browserslist`进行使用，需要注意的是需要指定是开发环境还是生产环境
+
+## webpack_09
+
+- `optimize-css-assets-webpack-plugin`压缩css代码
