@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: liyongshuai
  * @Date: 2022-05-02 22:31:00
- * @LastEditTime: 2022-05-31 22:09:56
+ * @LastEditTime: 2022-05-31 22:14:50
  * @LastEditors: liyongshuai
 -->
 # 介绍
@@ -51,3 +51,4 @@
 ## webpack_09
 
 - `optimize-css-assets-webpack-plugin`压缩css代码
+- test timeout
